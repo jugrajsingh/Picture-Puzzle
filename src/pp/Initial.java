@@ -287,8 +287,7 @@ class Initial extends JFrame implements ActionListener
 	        	move(t-1,t);
 	        }
 	        else if(buttons[t+3].getIcon()==null)
-	        {
-				move(t+3,t);
+	        {move(t+3,t);
 	        }
 	        break;
 	        }
